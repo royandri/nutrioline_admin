@@ -148,8 +148,8 @@
                       <span class="pull-right dropdown-toggle">
                         <i class="dropdown-caret"></i>
                       </span>
-                      <p class="mnp-name">Administrator</p>
-                      <span class="mnp-desc">admin@mail.com</span>
+                      <p class="mnp-name" id="nama"></p>
+                      <p class="mnp-desc" id="username"></p>
                     </a>
                   </div>
                   <div id="profile-nav" class="collapse list-group bg-trans">
@@ -260,6 +260,13 @@
     include $js_file;
   }
   ?>
+
+  <script>
+    $(document).ready(() => {
+      document.getElementById("nama").innerHTML = localStorage.getItem("nama");
+      document.getElementById("username").innerHTML = "@" +localStorage.getItem("username");
+    })
+  </script>
 
 
 

@@ -22,6 +22,8 @@ $(document).ready(function(){
             success: function (data) {
                 if (data.success == 1) {
                     localStorage.setItem('token', data.data.token);
+                    localStorage.setItem('nama', data.data.nama);
+                    localStorage.setItem('username', data.data.username);
                     toastr.success(data.message);
                     window.location = '<?php echo $url_lempar; ?>';
                 }else{                    
