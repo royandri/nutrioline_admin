@@ -33,7 +33,7 @@
                             <th>Berat (kg)</th>
                             <th>Tinggi (cm) </th>
                             <th>Gaji (Rp) </th>
-                            <th>Status Actual </th>
+                            <th>Status Aktual </th>
                         </tr>
                     </thead>
                     <tbody>

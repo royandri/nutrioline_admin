@@ -20,6 +20,13 @@ switch ($action) {
     include_once $loadview.'template.php'; 
   break;
 
+  case 'ujidata':   
+    $title="Uji Data";  
+    $js_file=$section.'/ujidata/ujidata_js.php'; 
+    $path_action=$loadview.$section.'/ujidata.php';      
+    include_once $loadview.'template.php'; 
+  break;
+
   default:
     $title="404";  
     $path_action=$loadview.'/404.php'; 

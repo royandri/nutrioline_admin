@@ -196,6 +196,7 @@
                     <ul class="collapse">
                       <li><a href="<?php echo base_url().'perhitungan/prediksi';?>">Prediksi Gizi</a></li>
                       <li><a href="<?php echo base_url().'perhitungan/uji';?>">Uji Dataset</a></li>
+                      <li><a href="<?php echo base_url().'perhitungan/ujidata';?>">Pengujian Data</a></li>
                     </ul>
                   </li>
 
