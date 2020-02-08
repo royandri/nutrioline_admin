@@ -6,7 +6,7 @@ require_once 'apps/library/function_security.php';
 require_once 'apps/library/function_tanggal.php';
 require_once 'apps/library/function_pagination.php';
 require_once 'apps/library/function_session.php';
-require_once 'apps/library/function_uuid.php';
+// require_once 'apps/library/function_uuid.php';
 // require_once 'apps/library/function_email.php';
 
 $get_contr   = filter_injection($_GET['contr']);
